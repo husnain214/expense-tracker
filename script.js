@@ -54,7 +54,7 @@ function renderRows () {
                         <td>${users[i].amount}</td>
                         <td>
                             <button class = "deleteBtn" id = "${i}" type="button">
-                                <img src="./icons/delete.svg" alt="delete button">
+                                <img src="./icons/delete.svg" alt="delete button" class = "deleteBtn">
                             </button>
                         </td>
                     </tr>`
